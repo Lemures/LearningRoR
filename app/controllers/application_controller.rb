@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render text: 'Hello, Heroku! 02'
+    render text: 'Hello, Heroku! 02 Will help me rule the world'
   end
 
 end
